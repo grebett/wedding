@@ -1,12 +1,12 @@
 <template>
   <div class="header-container">
     <header-menu></header-menu>
-    <header-title></header-title>
+    <header-title v-bind:scale='1.4' v-bind:y='60'></header-title>
   </div>
 </template>
 
 <script>
-import HeaderMenu from './menu/';
+import HeaderMenu from './menu';
 import HeaderTitle from './title';
 
 export default {
@@ -29,6 +29,7 @@ export default {
   left: 0;
   top: 0;
   width: 100%;
-  height: 300px;
+  height: 200px;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.6);
 }
 </style>

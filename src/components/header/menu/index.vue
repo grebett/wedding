@@ -32,7 +32,7 @@ export default {
   top: 27px;
   right: 34px;
   width: auto;
-  height: 21px;
+  height: 19;
   z-index: 3;
 }
 
@@ -45,8 +45,8 @@ ul {
 li {
   display: inline-block;
   font-family: Avenir, sans-serif;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 li:not(:last-of-type) {
