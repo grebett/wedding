@@ -1,25 +1,15 @@
 <template>
   <div class="confirm-venue-container" style="padding:40px;">
-    <div id="should be an element">
-      <svg width="500" height="224">
-        <defs>
-          <mask id="mask" x="0" y="0" width="500" height="224" >
-            <rect id="alpha" x="0" y="0" width="300%" height="224"/>
-            <circle cx="0" cy="112" r="40"/>
-            <circle cx="500" cy="112" r="40"/>
-          </mask>
-        </defs>
-        <rect id="base" x="0" y="0" width="500" height="224"/>
-      </svg>
-    </div>
+    <ticket><ticket>
   </div>
 </template>
 
 <script>
+import Ticket from './ticket';
 
 export default {
   name: 'confirm-venue',
-  components: { },
+  components: { Ticket },
   data() {
     return {};
   },
@@ -31,15 +21,6 @@ export default {
 }
 
 .confirm-venue-container {
-  /*background: red;*/
-}
-
-#alpha {
-  fill: #fff;
-}
-
-#base {
-  fill: #fff;
-  mask: url(#mask);
+  background-color: transparent;
 }
 </style>
