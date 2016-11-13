@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <app-header></app-header>
+    <app-main></app-main>
   </div>
 </template>
 
 <script>
 import AppHeader from './components/header';
+import AppMain from './components/main';
 
 export default {
   name: 'app',
   components: {
     AppHeader,
+    AppMain,
   },
 };
 </script>
@@ -19,6 +22,7 @@ export default {
 html, body {
   height: 100%;
 }
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,8 +30,11 @@ html, body {
   color: #2c3e50;
   background-image: url(./assets/festival-flags-garden-party-large.jpg);
   background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
   margin: auto;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
+  height: auto;
 }
 </style>

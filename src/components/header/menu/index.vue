@@ -20,7 +20,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 :root {
   --grey: #9b9b9b;
