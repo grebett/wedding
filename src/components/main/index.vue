@@ -1,13 +1,15 @@
 <template>
   <div class="main-container">
+    <confirm-venue></confirm-venue>
   </div>
 </template>
 
 <script>
+import ConfirmVenue from './confirm';
 
 export default {
   name: 'app-main',
-  components: { },
+  components: { ConfirmVenue },
   data() {
     return {};
   },

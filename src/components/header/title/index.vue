@@ -1,10 +1,10 @@
 <template>
   <div class="header-title-container">
-    <svg width="100%">
+    <svg id="logo-svg" width="100%" height="100%">
       <defs>
-        <mask id="mask" x="0" y="0" width="100%" height="100%" >
-          <rect id="alpha" x="0" y="0" width="300%" height="100%"/>
-          <g id="path" v-bind:transform="`scale(${this.scale})`">
+        <mask id="logo-svg-mask" x="0" y="0" width="100%" height="100%" >
+          <rect id="logo-svg-alpha" x="0" y="0" width="300%" height="100%"/>
+          <g id="logo-svg-path" v-bind:transform="`scale(${this.scale})`">
             <path d="M13.6,55.5c4.2-3.7,3.4-6.9,2.6-8.5L7.4,32.4l-6.2,3.8l9,13.7c0,0,2.3,3.8-4,2.3l-1,5.2C5.3,57.3,9.9,58.8,13.6,55.5z"/>
             <path d="M22.4,23.1c0,0-12.1,6.9-6.5,17.6c7.3,10.1,19.2,3,19.2,3s11-6.3,6.1-16.5C35.9,16.2,22.4,23.1,22.4,23.1z"/>
             <path d="M40.4,16.1l6.6-2.3l4.1,12.1c0,0,1.1,5,5.8,3.4c4.5-1.4,2.9-5.3,2.9-5.3L56.1,11l6.8-1.9l3.5,13.9c0,0,2.5,7.6-7.2,11.1
@@ -35,7 +35,7 @@
           </g>
         </mask>
       </defs>
-      <rect id="base" x="0" y="0" width="200%" height="100%"/>
+      <rect id="logo-svg-base" x="0" y="0" width="200%" height="100%"/>
     </svg>
   </div>
 </template>
@@ -54,11 +54,11 @@ export default {
     window.removeEventListener('resize', this.handleResize);
   },
   mounted: function mounted() {
-    const svg = document.querySelector('svg');
+    const svg = document.getElementById('logo-svg');
     const windowWidth = window.innerWidth
       || document.documentElement.clientWidth
       || document.body.clientWidth;
-    this.path = svg.getElementById('path');
+    this.path = svg.getElementById('logo-svg-path');
     this.width = 300;
 
     window.addEventListener('resize', this.handleResize);
@@ -90,17 +90,12 @@ export default {
   z-index: 2;
 }
 
-svg {
-  width: 100%;
-  height: inherit;
-}
-
-#alpha {
+#logo-svg-alpha {
   fill: #fff;
 }
 
-#base {
+#logo-svg-base {
   fill: #fff;
-  mask: url(#mask);
+  mask: url(#logo-svg-mask);
 }
 </style>
