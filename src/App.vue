@@ -25,9 +25,19 @@ export default {
   --grey: #9b9b9b;
   --shadow-black: #00000080;
   --text-black: #2c3e50;
+  --text-dark-blue: #254b79;
   --white: #ffffff;
 }
 
+@font-face {
+  font-family: AvenirNext;
+  src: url(./assets/AvenirNextLTProRegular.ttf);
+}
+@font-face {
+  font-family: AvenirNext;
+  src: url(./assets/AvenirNextLTProBold.ttf);
+  font-weight: bold;
+}
 @font-face {
   font-family: PlayFair;
   src: url(./assets/PlayfairDisplaySC-Regular.otf);
@@ -58,7 +68,7 @@ html, body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: AvenirNext, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-black);

@@ -36,7 +36,7 @@ export default {
 }
 
 .button {
-  font-family: Avenir;
+  font-family: AvenirNext;
   width: 160px;
   height: 43px;
   margin-left: 18px;

@@ -1,6 +1,6 @@
 <template>
   <div class="theme-container">
-    <h1>thématique</h1>
+    <h1><span>thématique</span></h1>
     <h2>Fête foraine des années 50</h2>
     <youtube-iframe video-id="6MocOt8xBjo"></youtube-iframe>
     <p>
@@ -38,11 +38,24 @@ h1 {
   color: var(--blue);
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 50px;
+}
+span {
+  border-bottom: 2px outset var(--dark-blue);
+  padding-bottom: 30px;
 }
 
 h2 {
-  font-family: Avenir;
+  margin-top: 70px;
+  font-family: AvenirNext;
+  font-weight: bold;
   text-align: center;
   color: var(--dark-blue);
+}
+
+p {
+  color: var(--text-dark-blue);
+  text-align: center;
+  line-height: 1.3em;
 }
 </style>

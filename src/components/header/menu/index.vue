@@ -42,7 +42,7 @@ ul {
 
 li {
   display: inline-block;
-  font-family: Avenir, sans-serif;
+  font-family: AvenirNext, sans-serif;
   font-size: 16px;
   line-height: 19px;
 }
