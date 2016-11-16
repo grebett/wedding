@@ -33,8 +33,8 @@ export default {
 .ticket-container {
   /*position: relative;*/
   margin: auto;
-  width: 520px;
-  height: 270px;
+  width: 416px;
+  height: 216px;
   overflow: show;
   background-image: url('./ticket.svg');
   background-size: cover;
@@ -51,12 +51,12 @@ export default {
 
 form {
   height: 100%;
-  padding: 50px 130px;
+  padding: 30px 100px;
 }
 
 .form-group {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 input[type="text"] {
@@ -66,7 +66,8 @@ input[type="text"] {
   padding: 5px;
   border-bottom: 2px solid var(--blue);
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
+  color: var(--blue);
 }
 
 input[type="text"]::placeholder {
@@ -97,7 +98,7 @@ input[type=checkbox].css-checkbox + label.css-label {
   background-position: 0 0;
   vertical-align: middle;
   cursor: pointer;
-  font-size: 21px;
+  font-size: 17px;
   font-weight: lighter;
   color: var(--blue);
 }

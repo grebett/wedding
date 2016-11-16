@@ -1,6 +1,6 @@
 <template>
   <div class="confirm-venue-container" style="padding:40px;">
-    <ticket><ticket>
+    <ticket></ticket>
   </div>
 </template>
 
