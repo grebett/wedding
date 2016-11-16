@@ -30,7 +30,10 @@ export default {
   padding: 20px 80px;
   width: 800px;
   margin: auto;
+  margin-top: 50px;
   background-color: var(--white);
+  background-image: url(../../../assets/noisy-grid.png);
+  box-shadow: 0 2px 4px 0 var(--shadow-black);
 }
 
 h1 {
@@ -40,6 +43,7 @@ h1 {
   text-align: center;
   margin-bottom: 50px;
 }
+
 span {
   border-bottom: 2px outset var(--dark-blue);
   padding-bottom: 30px;

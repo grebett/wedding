@@ -66,7 +66,8 @@ input[type="text"] {
   border-bottom: 2px solid var(--dark-blue);
   font-size: 17px;
   color: var(--dark-blue);
-  /*text-align: center;*/
+  background-color: transparent;
+  text-align: center;
 }
 
 input[type="text"]::placeholder {

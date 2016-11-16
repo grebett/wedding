@@ -73,6 +73,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-black);
   margin: auto;
+  padding-bottom: 100px;
   width: 100%;
   min-height: 100%;
   height: auto;
@@ -93,8 +94,8 @@ html, body {
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
-  width: 1200px;
+  width: 8000px;
   height: 800px;
-  filter: blur(2px) hue-rotate(10deg) brightness(0.7);
+  filter: blur(2px) hue-rotate(120deg) brightness(0.7);
 }
 </style>
