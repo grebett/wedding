@@ -29,6 +29,6 @@ export default {
   top: 0;
   width: 100%;
   height: 200px;
-  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 20px 2px var(--shadow-black);
 }
 </style>

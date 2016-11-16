@@ -19,6 +19,40 @@ export default {
 </script>
 
 <style>
+* {
+  --blue: #4a90e2;
+  --dark-blue: #244b79;
+  --grey: #9b9b9b;
+  --shadow-black: #00000080;
+  --text-black: #2c3e50;
+  --white: #ffffff;
+}
+
+@font-face {
+  font-family: PlayFair;
+  src: url(./assets/PlayfairDisplaySC-Regular.otf);
+}
+@font-face {
+  font-family: PlayFair;
+  src: url(./assets/PlayfairDisplaySC-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: PlayFair;
+  src: url(./assets/PlayfairDisplaySC-Italic.otf);
+  font-style: italic;
+}
+@font-face {
+  font-family: PlayFair;
+  src: url(./assets/PlayfairDisplaySC-BoldItalic.otf);
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: PlayFairBlack;
+  src: url(./assets/PlayfairDisplaySC-Black.otf);
+}
+
 html, body {
   height: 100%;
 }
@@ -27,7 +61,7 @@ html, body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: var(--text-black);
   margin: auto;
   width: 100%;
   min-height: 100%;

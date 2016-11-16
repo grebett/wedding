@@ -91,11 +91,11 @@ export default {
 }
 
 #logo-svg-alpha {
-  fill: #fff;
+  fill: var(--white);
 }
 
 #logo-svg-base {
-  fill: #fff;
+  fill: var(--white);
   mask: url(#logo-svg-mask);
 }
 </style>

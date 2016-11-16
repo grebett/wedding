@@ -22,7 +22,6 @@ export default {
 
 <style scoped>
 :root {
-  --grey: #9b9b9b;
 }
 
 .header-menu-container {

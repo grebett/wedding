@@ -1,15 +1,17 @@
 <template>
   <div class="main-container">
     <confirm-venue></confirm-venue>
+    <theme></theme>
   </div>
 </template>
 
 <script>
 import ConfirmVenue from './confirm';
+import Theme from './theme';
 
 export default {
   name: 'app-main',
-  components: { ConfirmVenue },
+  components: { ConfirmVenue, Theme },
   data() {
     return {};
   },

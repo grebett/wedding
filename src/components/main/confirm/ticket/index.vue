@@ -27,7 +27,6 @@ export default {
 
 <style scoped>
 :root {
-  --blue: #244b79;
 }
 
 .ticket-container {
@@ -41,11 +40,11 @@ export default {
 }
 
 #ticket-alpha {
-  fill: #fff;
+  fill: var(--white);
 }
 
 #ticket-base {
-  fill: #fff;
+  fill: var(--white);
   mask: url(#ticket-mask);
 }
 
@@ -64,14 +63,14 @@ input[type="text"] {
   outline: none;
   border: none;
   padding: 5px;
-  border-bottom: 2px solid var(--blue);
+  border-bottom: 2px solid var(--dark-blue);
   font-size: 17px;
-  color: var(--blue);
+  color: var(--dark-blue);
   /*text-align: center;*/
 }
 
 input[type="text"]::placeholder {
-  color: var(--blue);
+  color: var(--dark-blue);
   opacity: 1 !important;
   font-weight: lighter;
   text-align: center;
@@ -101,7 +100,7 @@ input[type=checkbox].css-checkbox + label.css-label {
   cursor: pointer;
   font-size: 17px;
   font-weight: lighter;
-  color: var(--blue);
+  color: var(--dark-blue);
 }
 
 input[type=checkbox].css-checkbox:checked+label.css-label {

@@ -48,17 +48,17 @@ export default {
   font-size: 16px;
   cursor: pointer;
   outline: none;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 var(--shadow-black);
   transition: box-shadow 0.3s;
 }
 .button:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 4px 0 var(--shadow-black);
 }
 .button--dark {
-  background-color: #244b79;
+  background-color: var(--dark-blue);
 }
 .button--light {
-  background-color: #4990e2;
+  background-color: var(--blue);;
   font-weight: bold;
 }
 </style>
