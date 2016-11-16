@@ -2,7 +2,9 @@
   <div class="theme-container">
     <h1><span>thématique</span></h1>
     <h2>Fête foraine des années 50</h2>
-    <youtube-iframe video-id="6MocOt8xBjo"></youtube-iframe>
+    <div class="youtube-iframe-wrapper">
+      <youtube-iframe video-id="6MocOt8xBjo"></youtube-iframe>
+    </div>
     <p>
       Plongez dans l’univers d’une fête foraine des années 50 en France, venez participer aux attractions et concours pour remporter des cadeaux et ne manquez pas François le facteur !
     </p>
@@ -63,5 +65,12 @@ p {
   color: var(--text-dark-blue);
   text-align: center;
   line-height: 1.3em;
+}
+
+.youtube-iframe-wrapper {
+  box-shadow: 0 2px 4px 0 var(--shadow-black);
+  padding: 0;
+  height: auto;
+  background: black;
 }
 </style>

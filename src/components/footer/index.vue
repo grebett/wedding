@@ -45,9 +45,10 @@ h1 {
 }
 
 .contacts {
-  margin-left: 500px;
+  margin-left: 40%;
+  width: 60%;
+  min-width: 500px;
   padding-top: 20px;
-  width: 500px;
   display: flex;
   justify-content: space-around;
 }

@@ -36,7 +36,7 @@ export default {
   position: relative;
   box-sizing: border-box;
   padding: 20px 80px;
-  height: 850px;
+  height: 800px;
   width: 800px;
   margin: auto;
   margin-top: 50px;
@@ -85,14 +85,14 @@ p {
 }
 
 .new-look {
-  width: 240px;
+  width: 270px;
   top: 100px;
   right: 0;
 }
 
 .audrey {
   width: 250px;
-  top: 500px;
+  top: 508px;
   left: 30px;
 }
 
