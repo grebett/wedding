@@ -26,6 +26,7 @@ export default {
 }
 
 .theme-container {
+  position: relative;
   box-sizing: border-box;
   padding: 20px 80px;
   width: 800px;
@@ -34,6 +35,7 @@ export default {
   background-color: var(--white);
   background-image: url(../../../assets/noisy-grid.png);
   box-shadow: 0 2px 4px 0 var(--shadow-black);
+  z-index: 1;
 }
 
 h1 {

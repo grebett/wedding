@@ -26,6 +26,8 @@ export default {
 
 .confirm-venue-container {
   background-color: transparent;
+  position: relative;
+  z-index: 1;
 }
 
 .buttons-container {

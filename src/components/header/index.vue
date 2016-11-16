@@ -30,5 +30,6 @@ export default {
   width: 100%;
   height: 200px;
   box-shadow: 0 10px 20px 2px var(--shadow-black);
+  z-index: 2;
 }
 </style>
