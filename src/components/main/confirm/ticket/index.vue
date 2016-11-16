@@ -65,15 +65,16 @@ input[type="text"] {
   border: none;
   padding: 5px;
   border-bottom: 2px solid var(--blue);
-  text-align: center;
   font-size: 17px;
   color: var(--blue);
+  /*text-align: center;*/
 }
 
 input[type="text"]::placeholder {
   color: var(--blue);
   opacity: 1 !important;
   font-weight: lighter;
+  text-align: center;
 }
 
 input[type=checkbox].css-checkbox {
