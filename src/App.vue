@@ -2,24 +2,28 @@
   <div id="app">
     <app-header></app-header>
     <app-main></app-main>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 import AppHeader from './components/header';
 import AppMain from './components/main';
+import AppFooter from './components/footer';
 
 export default {
   name: 'app',
   components: {
     AppHeader,
     AppMain,
+    AppFooter,
   },
 };
 </script>
 
 <style>
 * {
+  --light-blue: #85beff;
   --blue: #4a90e2;
   --dark-blue: #244b79;
   --grey: #9b9b9b;
@@ -73,7 +77,6 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-black);
   margin: auto;
-  padding-bottom: 100px;
   width: 100%;
   min-height: 100%;
   height: auto;
