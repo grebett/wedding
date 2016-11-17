@@ -1,5 +1,5 @@
 <template>
-  <div class="castle-container">
+  <div class="countryside-container">
     <h1 class="main_title">la région</h1>
     <h2 class="main_subtitle">Le nord de l’Ardèche</h2>
     <img class="photo balloons" src="./balloons.jpg" alt="plusieurs montgolfières">
@@ -10,30 +10,20 @@
       <img class="photo dance" src="./dance.jpg" alt="danse autour d'une vieille montgolfière">
       <img class="photo accrobranche" src="./accrobranche.jpg" alt="accrobranche">
       <img class="photo ardeche" src="./ardeche.jpg" alt="vue d'Ardèche">
-      <div class="text gardens">
-        <h1>Les jardins</h1>
-        <h2>Cour, jardins et piscine</h2>
+      <div class="text annonay">
+        <h1>Les frères Montgolfiers</h1>
+        <h2>Annonay</h2>
         <p>
-          La cour où vous serez accueillis et où nous pourrons prendre le petit déjeuner du dimanche.<br><br>
-          Les jardins avec vue panoramique sur la vallée seront l’espace fête foraine du mariage et celui des apéritifs. Un coin particulier sera amménagé pour la cérémonie sous les grands pins.<br><br>
-          La piscine chauffée, ce sera pour ceux qui reviendront le dimanche ou les téméraires du Samedi soir…
+          Les inventeurs de la montgolfière viennent d’Annonay et les createurs du papier Canson aussi. Pour ceux qui ont l’oeil, vous comprenez pourquoi le logo Canson est une montgolfière.<br><br>
+          Pour ceux qui veulent voir les choses de plus haut de nombreux voyages en montgolfiere sont organisés dans la région si cela vous tente.
         </p>
       </div>
-      <div class="text room">
-        <h1>Les salles de réception</h1>
-        <h2>Salles des citronniers &amp; des glycines</h2>
+      <div class="text gorges">
+        <h1>Le grand air</h1>
+        <h2>Gorges et montagnes</h2>
         <p>
-          La salle des citronniers dans la partie haute de la grange sera le lieu de réception et la piste de danse pour toute la nuit.<br><br>
-          La salle des glycines en dessous, est une salle de secours en cas de pluie (peu probable, mais on ne sait jamais) et servira de dortoir pour ceux qui ont apporter leurs matelats ou ceux qui sont trop éprouvés pour repartir en voiture. Attention, personne ne prends les routes étroites et tordues de l’ardèche éméché ! On ne veut pas de drame.
-        </p>
-      </div>
-      <div class="text life">
-        <h1>Les lieux de vie</h1>
-        <h2>Grande &amp; petite maison</h2>
-        <p>
-          La grande maison avec ses différents salons, sa grande cuisine et sa salle de billard&nbsp;!<br><br>
-          La petite maison et ses quelques chambres.<br><br>
-          Le jardin de la petite maison où les campeurs auront la possibilité de planter leurs tentes pour être au plus proche de la nature et des amis !
+          Pour les sportifs l’Ardèche est un merveilleux terrain pour l’escalade. A proximité, il y a 6 sites d’escalade dont La Mer de Glace où l’on escalade à côté des petits ruisseaux et cascades. Il y a également un parc d’accrobranche dans les environs et plein de circuits pour vélo et de randonnées à faire dans les environs.<br><br>
+          Découvrez aussi le Safari de Peaugres pour les plus jeunes ou ceux qui aiment bien les animaux.
         </p>
       </div>
     </div>
@@ -43,7 +33,7 @@
 <script>
 
 export default {
-  name: 'castle',
+  name: 'countryside',
   components: { },
   data() {
     return {};
@@ -55,7 +45,7 @@ export default {
 :root {
 }
 
-.castle-container {
+.countryside-container {
   position: relative;
   box-sizing: border-box;
   padding: 20px 80px;
@@ -85,7 +75,7 @@ export default {
 
 .patchwork-container {
   width: 100%;
-  height: 1200px;
+  height: 750px;
   position: relative;
   margin-top: 50px;
 }
@@ -144,52 +134,39 @@ h2.main_subtitle {
   width: 640px;
 }
 
+.annonay {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 350px;
+}
+
 .dance {
   position: absolute;
   top: 0;
+  right: -80px;
+  width: 350px;
+}
+
+.accrobranche {
+  position: absolute;
+  top: 350px;
   left: -80px;
   width: 450px;
 }
 
-.pool {
+.ardeche {
   position: absolute;
-  top: 130px;
-  left: -20px;
+  top: 450px;
+  left: -40px;
   width: 360px;
 }
 
-.the-room {
+.gorges {
   position: absolute;
-  top: 450px;
-  right: -80px;
+  top: 340px;
+  right: -40px;
   width: 270px;
 }
 
-.living-room {
-  position: absolute;
-  top: 930px;
-  left: -80px;
-  width: 385px;
-}
-
-.gardens {
-  position: absolute;
-  top: -10px;
-  right: -20px;
-  width: 240px;
-}
-
-.room {
-  position: absolute;
-  top: 480px;
-  left: -20px;
-  width: 340px;
-}
-
-.life {
-  position: absolute;
-  top: 912px;
-  right: -20px;
-  width: 300px;
-}
 </style>

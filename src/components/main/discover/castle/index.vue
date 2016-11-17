@@ -86,7 +86,7 @@ export default {
 
 .patchwork-container {
   width: 100%;
-  height: 1250px;
+  height: 1270px;
   position: relative;
   margin-top: 50px;
 }
