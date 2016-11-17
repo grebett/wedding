@@ -32,8 +32,8 @@
         <h1>Les lieux de vie</h1>
         <h2>Grande &amp; petite maison</h2>
         <p>
-          La grande maison  où la fête pourra se finir en plus petit commité pour les plus résistants. Découvrez les différents salons.<br><br>
-          La petite maison accolée à la grande où certain amis pourront dormir.<br><br>
+          La grande maison avec ses différents salons, sa grande cuisine et sa salle de billard&nbsp;!<br><br>
+          La petite maison et ses quelques chambres.<br><br>
           Le jardin de la petite maison où les campeurs auront la possibilité de planter leurs tentes pour être au plus proche de la nature et des amis !
         </p>
       </div>
@@ -86,7 +86,7 @@ export default {
 
 .patchwork-container {
   width: 100%;
-  height: 1300px;
+  height: 1250px;
   position: relative;
   margin-top: 50px;
 }
@@ -168,7 +168,7 @@ h2.main_subtitle {
 
 .living-room {
   position: absolute;
-  top: 920px;
+  top: 930px;
   left: -80px;
   width: 385px;
 }
@@ -189,7 +189,7 @@ h2.main_subtitle {
 
 .life {
   position: absolute;
-  top: 920px;
+  top: 922px;
   right: -20px;
   width: 300px;
 }

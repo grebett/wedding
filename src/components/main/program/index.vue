@@ -20,7 +20,7 @@
       <day date="samedi 19 août" orientation="flag-left"></day>
       <div class="row">
         <div class="text padding-left">
-          <h1 class="prep">Jour de fête</h1>
+          <h1 class="prep big">Jour de fête</h1>
           <h2>ensemble</h2>
           <p>
             Bienvenue à la fête !<br>
@@ -124,8 +124,8 @@
     <div class="sunday">
       <day date="dimanche 20 août" orientation="flag-right"></day>
       <div class="row">
-        <div class="text prep padding-left">
-          <h1>Brunch &amp; piscine </h1>
+        <div class="text padding-left">
+          <h1 class="prep">Brunch &amp; piscine </h1>
           <h2>à partir de 13h</h2>
           <p>
             Après une grasse matinée du Dimanche, rejoignez nous pour un brunch et  une après midi tranquille au bord de la piscine.<br><br>
@@ -240,6 +240,10 @@ h1.prep:before {
   content: '–––';
   font-family: Arial;
   left: 0px;
+}
+
+h1.big {
+  text-transform: uppercase;
 }
 
 h2 {
