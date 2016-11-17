@@ -44,27 +44,23 @@ export default {
 }
 @font-face {
   font-family: PlayFair;
-  src: url(./assets/PlayfairDisplaySC-Regular.otf);
+  src: url(./assets/PlayfairDisplay-Regular.otf);
 }
 @font-face {
   font-family: PlayFair;
-  src: url(./assets/PlayfairDisplaySC-Bold.otf);
+  src: url(./assets/PlayfairDisplay-Bold.otf);
   font-weight: bold;
 }
 @font-face {
   font-family: PlayFair;
-  src: url(./assets/PlayfairDisplaySC-Italic.otf);
+  src: url(./assets/PlayfairDisplay-Italic.otf);
   font-style: italic;
 }
 @font-face {
   font-family: PlayFair;
-  src: url(./assets/PlayfairDisplaySC-BoldItalic.otf);
+  src: url(./assets/PlayfairDisplay-BoldItalic.otf);
   font-weight: bold;
   font-style: italic;
-}
-@font-face {
-  font-family: PlayFairBlack;
-  src: url(./assets/PlayfairDisplaySC-Black.otf);
 }
 
 html, body {

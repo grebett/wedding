@@ -158,18 +158,20 @@ export default {
 
 <style scoped>
 :root {
-  --transparent-blue: color(#85beff alpha(50%));
+  --transparent-blue: color(#85beff alpha(20%));
 }
 
 .program-container {
   position: relative;
-  width: 100%;
-  height: inherit;
+  box-sizing: border-box;
+  padding: 0;
+  width: 800px;
+  margin: auto;
   margin-top: 50px;
-  padding-bottom: 100px;
   background-color: var(--white);
   background-image: url(../../../assets/noisy-grid.png);
   box-shadow: 0 2px 4px 0 var(--shadow-black);
+  z-index: 1;
 }
 
 .friday,
@@ -177,12 +179,12 @@ export default {
 .sunday {
   position: relative;
   height: inherit;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .friday,
 .saturday {
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 }
 
 .saturday {
@@ -241,7 +243,7 @@ h1.prep:before {
 }
 
 h2 {
-  font-family: AvenirNext;
+  font-family: PlayFair;
   color: var(--light-blue);
   font-size: 20px;
   font-weight: normal;

@@ -132,7 +132,7 @@ h2.main_subtitle {
   font-size: 20px;
 }
 .text h2 {
-  font-family: AvenirNext;
+  font-family: PlayFair;
   color: var(--light-blue);
   font-size: 20px;
   font-weight: normal;
