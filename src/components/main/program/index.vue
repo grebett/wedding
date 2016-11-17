@@ -1,13 +1,12 @@
 <template>
-  <div class="main-container">
-    <router-view></router-view>
+  <div class="program-container">
+    This is my program!
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'app-main',
+  name: 'program',
   components: { },
   data() {
     return {};
@@ -19,8 +18,6 @@ export default {
 :root {
 }
 
-.main-container {
-  padding-top: 200px;
-  background-color: transparent;
+.program-container {
 }
 </style>
