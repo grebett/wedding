@@ -4,8 +4,8 @@
       <!-- Todo: bold the selected menu -->
       <li><router-link to="/home">Accueil</router-link></li>
       <li><router-link to="/program">Programme</router-link></li>
-      <li><a href="#">Découverte</a></li>
-      <li><a href="#">Organisation</a></li>
+      <li><router-link to="/discover">Découverte</router-link></li>
+      <li><router-link to="/organization">Organisation</router-link></li>
       <li><a href="#">Photos</a></li>
     </ul>
   </div>
