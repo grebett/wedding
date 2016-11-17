@@ -29,7 +29,7 @@ export default {
 
 .day-container {
   position: absolute;
-  top: -28px;
+  top: -27.66px;
   background-size: auto 100%;
   background-repeat: no-repeat;
 }
