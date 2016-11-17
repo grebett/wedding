@@ -85,7 +85,7 @@ module.exports = {
   vue: {
     loaders: utils.cssLoaders({ sourceMap: useCssSourceMap }),
     postcss: [
-      require('postcss-cssnext')
+      require('postcss-cssnext'),
     ]
   }
 }

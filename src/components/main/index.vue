@@ -20,7 +20,7 @@ export default {
 }
 
 .main-container {
-  padding-top: 200px;
+  padding-top: 250px;
   background-color: transparent;
 }
 </style>
