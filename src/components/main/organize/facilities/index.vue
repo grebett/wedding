@@ -1,10 +1,11 @@
 <template>
   <div class="facilities-container">
     <h1 class="main_title">Les hébergements</h1>
-    <h2 class="main_subtitle">Possibilité d’hébergement<br>dans les environs</h2>
+    <h2 class="main_subtitle">Possibilité d'hébergement<br>dans les environs</h2>
     <p class="intro centered">
-      Puisque nous sommes loin de tout, que c’est au mois d’Aout et que l’Ardeche est une belle région, nous vous conseillons de poser au moins une journée pour un week-end de 3 jours et de réserver un logement dans le coin.<br><br>
-      Réservez vite, les prix seront plus interessants. Nous pourrons aussi obtenir des réductions pour des prix de groupe, donc dites nous où vous souhaitez loger.
+      C'est vrai, l'Ardèche, c'est un peu loin. Mais comme c'est une région magnifique, et qu'en plus c'est le mois d'Aôut, pourquoi n'en profiteriez-vous pas pour prendre quelques vacances&nbsp;? Nous avons sélectionné pour vous une liste de logement dans le coin.<br><br>
+      Réservez vite, les prix n'en seront que plus intéressants. Si vous vous groupez, nous pourrons négocier des réductions auprès de ces établissements. Pour nous prévenir, utilisez <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KjHtz0uj-PvThJK2NuKtflnV9esqpPkZlDrpPEUWCTc/edit?usp=sharing">ce formulaire</a>, accessible uniquement aux invités, ou <a href="mailto:gregory.betton@gmail.com,chl.payot@gmail.com">contactez-nous directement par email</a>.
+      Nous essaierons de vous obtenir les meilleurs prix et vous préviendrons quand vous pourrez finaliser vous-même votre réservation.
     </p>
     <div class="patchwork-container">
       <img class="photo gentilhommiere" src="./gentilhommiere.png" alt="La gentilhommière">
@@ -15,32 +16,32 @@
         <h1>Hôtel</h1>
         <h2>La Gentilhommière</h2>
         <p>
-          La Gentilhommière est l’hôtel le plus proche. Vous pourrez même rentrer à pied si trop d’excès. C’est un hôtel 3 étoiles avec piscine chauffée, restaurant et terrasse et jardin.<br>
-          La nuit est entre 70 et 100 €. Il est possible de réserver des chambres d’hotel ou des duplex pour un séjour prolongé.<br><br>
-          Nous pouvons organiser un tarif de groupe à partir de 20 personnes, donc si vous choississez cet Hotêl, inscrivez vous ici pour que nous négocions pour vous les meilleurs prix. Vous ferez votre réservation une fois les prix négociés.
+          La Gentilhommière est l'hôtel le plus proche. Vous pourrez même rentrer du château à pied&nbsp;! C'est un hôtel 3 étoiles avec piscine chauffée, restaurant, terrasse et jardin.<br>
+          Comptez entre 70 et 100 € la nuit. Il est possible de réserver des chambres d'hotel ou des duplex pour un séjour prolongé.<br><br>
+          Nous pouvons organiser un tarif de groupe à partir de 20 personnes.
         </p>
       </div>
       <div class="text gites">
         <h1>Gîtes</h1>
         <h2>Domaine vignes vieilles</h2>
         <p>
-          Le domaine vignes vieilles se trouve dans le village suivant à 4 kilometres. Idéal pour ceux qui sont en groupe et veulent louer un gîte. Vous pouvez y loger à 16. Il y a 6 chambres.<br><br>
-          Ancienne grange, entièrement transformée en maison de charme. Belle demeure en pierre qui offre une grande pièce à vivre et des chambres spacieuses avec salle de bain privée. Tarif de 1000€ à 2800€ pour tout le gite.
+          Le <a href="http://www.domainevignevieille.com/4596.html?*session*id*key*=*session*id*val*">domaine vignes vieilles</a> se trouve dans le premier village à 4 km de Satillieu. Idéal pour ceux qui sont en groupe et veulent louer un gîte. Vous pouvez y loger à 16 dans les 6 chambres.<br><br>
+          Ancienne grange, entièrement transformée en maison de charme. Belle demeure en pierre qui offre une grande pièce à vivre et des chambres spacieuses avec salle de bain privée. Tarif de 1000€ à 2800€ pour tout le gîte.
         </p>
         <h2 class="margin-top">Chez Agathe</h2>
         <p>
-          Au bord d’une rivière de la montagne ardéchoise, dans un village pittoresque, découvrez Chez Agathe une demeure de caractère du XVIIème siècle, ancien couvent, ancien pensionnat de jeunes filles.<br><br>
-          L’aile droite de la bâtisse conçue en gîte offre une grande capacité d’accueil (de 6 à 14 personnes) avec des espaces modulables. Tarif de 650€ à 1200€ pour 3 nuits.
+          Au bord d'une rivière de la montagne ardéchoise, dans un village pittoresque, découvrez <a href="http://www.ardeche-gite-1669.fr/">Chez Agathe</a> une demeure de caractère du XVIIème siècle, ancien couvent puis pensionnat de jeunes filles.<br><br>
+          L'aile droite de la bâtisse conçue en gîte offre une grande capacité d'accueil (de 6 à 14 personnes) avec des espaces modulables. Tarif de 650€ à 1200€ pour 3 nuits.
         </p>
       </div>
       <div class="text camping">
         <h1>Camping sur place</h1>
         <h2>Dans les jardins du château</h2>
         <p>
-          Si vous êtes jeune, que vous aimez le grand air et que vous voulez rester avec nous jusqu’au bout. Nous gardons un espace dans le jardin pour planter quelques tentes.<br>
+          Si vous êtes jeune et que vous aimez le grand air, nous réservons pour vous espace dans le jardin pour planter quelques tentes.<br>
           Ammenez votre materiel de camping, les toilettes, les salles de bain et la cuisine du chateau sont à disposition.<br><br>
-          Nous pouvons rester 4 jours et 3 nuits du Vendredi 18 au Lundi 21 Août. Tarifs : c’est l’avantage, c’est gratuit.<br>
-          <strong>Prévenez nous</strong>.
+          Vous pouvez séjourner au château les trois nuits, du vendredi 18 au lundi 21 août. Tarifs&nbsp;: c'est l'avantage, c'est gratuit.<br>
+          Manifestez-vous à l'avance en vous <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KjHtz0uj-PvThJK2NuKtflnV9esqpPkZlDrpPEUWCTc/edit?usp=sharing#gid=725102490">inscrivant sur ce formulaire</a>.
         </p>
       </div>
     </div>
@@ -116,6 +117,12 @@ h2.main_subtitle {
   font-weight: bold;
   text-align: center;
   color: var(--dark-blue);
+}
+
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .text {

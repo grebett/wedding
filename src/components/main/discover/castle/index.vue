@@ -4,7 +4,7 @@
     <h2 class="main_subtitle">Le château de Pralong Satillieu</h2>
     <img class="photo castle" src="./castle-front.jpg" alt="façade du château de Pralong">
     <p class="centered">
-      Le château de Pralong est composés de différents bâtiments et jardins pour nous offrir tout le confort pour la plus grande fête. Nous avons tous les lieux pour nous pendant 4 jours (dont 2 jours de fête), profitons en !
+      Le château de Pralong, composé de différents bâtiments et jardins, nos offre tout le confort nécessaire à une fête d'exception. Nous avons carte blanche pendant du vendredi 18 au lundi 21 août. Alors profitons-en&nbsp;!
     </p>
     <div class="patchwork-container">
       <img class="photo entrance" src="./entrance.jpg" alt="entrée du château">
@@ -15,17 +15,17 @@
         <h1>Les jardins</h1>
         <h2>Cour, jardins et piscine</h2>
         <p>
-          La cour où vous serez accueillis et où nous pourrons prendre le petit déjeuner du dimanche.<br><br>
-          Les jardins avec vue panoramique sur la vallée seront l’espace fête foraine du mariage et celui des apéritifs. Un coin particulier sera amménagé pour la cérémonie sous les grands pins.<br><br>
-          La piscine chauffée, ce sera pour ceux qui reviendront le dimanche ou les téméraires du Samedi soir…
+          La cour où nous vous accueillerons et pourrons prendre le petit-déjeuner du dimanche.<br><br>
+          Les jardins avec leur vue panoramique sur la vallée seront transformés en fête foraine. Un coin particulier sera amménagé pour la cérémonie sous les grands pins.<br><br>
+          Envie vous rafraîchir sous le soleil aoûtien&nbsp;? La piscine chauffée n'attend que vous&nbsp;!
         </p>
       </div>
       <div class="text room">
         <h1>Les salles de réception</h1>
         <h2>Salles des citronniers &amp; des glycines</h2>
         <p>
-          La salle des citronniers dans la partie haute de la grange sera le lieu de réception et la piste de danse pour toute la nuit.<br><br>
-          La salle des glycines en dessous, est une salle de secours en cas de pluie (peu probable, mais on ne sait jamais) et servira de dortoir pour ceux qui ont apporter leurs matelats ou ceux qui sont trop éprouvés pour repartir en voiture. Attention, personne ne prends les routes étroites et tordues de l’ardèche éméché ! On ne veut pas de drame.
+          La salle des citronniers, située dans la partie haute de la grange, hébergera la réception et la piste de danse.<br><br>
+          La salle des glycines juste en dessous pourra servir de dortoir pour la nuit du samedi si vous êtes trop éprouvés pour reprendre la route (l'Ardèche est connue pour ses routes dangereuses&nbsp;!). Pensez à prendre un matelas et un sac de couchage.
         </p>
       </div>
       <div class="text life">
@@ -34,7 +34,7 @@
         <p>
           La grande maison avec ses différents salons, sa grande cuisine et sa salle de billard&nbsp;!<br><br>
           La petite maison et ses quelques chambres.<br><br>
-          Le jardin de la petite maison où les campeurs auront la possibilité de planter leurs tentes pour être au plus proche de la nature et des amis !
+          Le jardin de la petite maison où les campeurs auront la possibilité de planter leurs tentes pour dormir à moindre frais&nbsp;!
         </p>
       </div>
     </div>
@@ -143,6 +143,7 @@ h2.main_subtitle {
 .castle {
   position: relative;
   width: 640px;
+  margin-bottom: 20px;
 }
 
 .entrance {

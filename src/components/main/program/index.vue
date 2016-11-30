@@ -5,10 +5,10 @@
       <div class="row">
         <div class="text padding-left"> <!-- could be an element -->
           <h1 class="prep">Préparation de la fête</h1>
-          <h2>avec les amis</h2>
+          <h2>avec les premiers arrivants</h2>
           <p>
-            Dans la journée du vendredi <strong>à partir de 13h</strong>, les amis qui résident au Château de Pralong et les volontaires dans le coin, sont bienvenus pour nous <strong>aider à installer les décorations et préparer la fête du lendemain</strong>. Nous finirons la journée au bord de la piscine et ensemble pour un barbecue le soir.<br><br>
-            Les résidents au Château peuvent arriver <strong>à partir de 11h</strong>.
+            Dans la journée du vendredi <strong>à partir de 13h</strong>, tous les volontaires sont les bienvenus pour nous <strong>aider à installer les décorations et préparer la fête du lendemain</strong>. Nous finirons la journée autour d'un barbecue à deux pas de la piscine&nbsp;!<br><br>
+            Les résidents du Château pourront arriver <strong>à partir de 11h</strong> pour prendre possession de leurs chambres.
           </p>
         </div>
         <div class="photo-container">
@@ -21,19 +21,17 @@
       <div class="row">
         <div class="text padding-left">
           <h1 class="prep big">Jour de fête</h1>
-          <h2>ensemble</h2>
+          <h2>tous ensemble</h2>
           <p>
-            Bienvenue à la fête !<br>
-            Aujourd’hui nous célébrons notre mariage, faites vous beaux et venez participer aux différentes ativités.
-            Plein de surprises vous attendent ...
+            Aujourd'hui nous célébrons notre amour dans la bonne humeur. Ambiance festive et chaleureuse garantie&nbsp;!
           </p>
         </div>
         <div class="text padding-right">
           <h1>Arrivée des invités</h1>
           <h2>à partir de 14h30</h2>
           <p>
-            Retrouvons nous au Château de Pralong à Satilleu.<br>
-            Les mariés vous accueilleront et à 15h nous entamerons un court discours pour vous remercier de votre venue.
+            Rendez-vous directement au <router-link to="/découverte">château de Pralong à Satillieu</router-link>. Prenons le temps
+            de tous nous retrouver&nbsp;!
           </p>
         </div>
       </div>
@@ -42,11 +40,10 @@
           <img class="photo" height="100%" src="./grease.jpg" alt="La bande de Grease">
         </div>
         <div class="text centered padding-right">
-          <h1>Cérémonie</h1>
+          <h1>Cérémonie laïque</h1>
           <h2>15h30</h2>
           <p>
-            C’est l’heure des mots d’amour, de l’instant solannel et des échanges d’alliances.<br>
-            Si vous souhaitez nous dire ou nous présenter quelque chose durant la cérémonie, <a href="mailto:somebody@somewhere.com">envoyez un mail</a> aux témoins en charge de l’organisation.
+            Voici l'instant solannel et l'échange des alliances. Amis et familles sont invités à s'exprimer&nbsp;: si vous souhaitez prendre la parole durant la cérémonie, <a href="mailto:somebody@somewhere.com">envoyez un mail</a> aux témoins en charge de l'organisation.
           </p>
         </div>
       </div>
@@ -55,17 +52,17 @@
           <h1>Fête foraine</h1>
           <h2>à partir de 16h30</h2>
           <p>
-            Découvrez la fête foraine du village.<br>
-            Participez aux activités pour gagner des tickets et les échanger contre de superbe peluche des années 90.
-            Echangez autour d’une coupe de champagne ou offrez vous une barbe à papa.
+            C'est parti pour la fête du village&nbsp;!<br>
+            Participez aux activités pour gagner des tickets et les échanger contre des peluches vintage&nbsp;!<br>
+            Echangez autour d'une coupe de champagne ou retombez en enfance en vous offrant une barbe à papa.
           </p>
         </div>
         <div class="text padding-right">
-          <h1>Concours crêpes/cookies</h1>
+          <h1>Concours crêpes / cookies</h1>
           <h2>à partir de 17h</h2>
           <p>
-            C’est l’heure de voter pour les meilleures Crêpes et Cookies de la journée. Puisque chacun a toujours la meilleure recette de crêpe ou de cookie, c’est l’occasion de vous départager une bonne fois pour toute !  Vous souhaitez participer ? Amenez vos réalisations et <a href="#">inscrivez vous ici</a>.<br>
-            Vous souhaitez goûter ? Faites le savoir le jour J et devenez membres du jury.
+            Que serait un goûter sans crêpes ni cookies&nbsp;? Mais quand il s'agit de trouver la bonne recette, les avis divergent&nbsp;! C'est l'occasion de vous départager une bonne fois pour toute en nous apportant vos mets les plus réussis. Vous souhaitez participer&nbsp;? Alors <a target="_blank" href="https://docs.google.com/spreadsheets/d/1lS4NYXrLAOWLSIh-bRt5hw4xZEeG9foemUGRdZL1dgA/edit?usp=sharing">inscrivez-vous ici</a>.<br>
+            Avis aux gourmands, les membres du jury seront choisis le jour J&nbsp;!
           </p>
         </div>
       </div>
@@ -74,8 +71,7 @@
           <h1>Photos</h1>
           <h2>à partir de 18h00</h2>
           <p>
-            On le sait, les photos de groupe c’est toujours ennuyeux et un peu long, mais on vous promet que vous pourrez vous occuper en attendant.<br><br>
-            Ecoutez le facteur quand ce sera votre tour et souriez.
+            Les traditionnelles photos de groupe. Venez poser avec les mariés dans vos plus beaux apparâts&nbsp;!
           </p>
         </div>
         <div class="photo-container">
@@ -87,36 +83,33 @@
           <h1>Diner &amp; animations</h1>
           <h2>20h</h2>
           <p>
-            Enfin l’heure de manger ? C’est aussi le temps de rire et d’échanger.<br>
-            Rejoignez nous dans la salle de réception, trouvez votre table et rencontrer vos voisins.<br><br>
-            Damien sera en charge de l’animation, si vous avez des surprises, des jeux, des dossiers, préparez cela avec lui en avance en lui <a href="mailto:damien@gmail.com">envoyant un mail</a>.
+            Le goûter vous a mis en appétit&nbsp;? Alors direction la salle de réception&nbsp; pour un repas d'été savoureux&nbsp;!<br><br>
+            Envie de nous surprendre avec une animation&nbsp;? <a href="mailto:damien@gmail.com">Contactez Damien</a>.
           </p>
         </div>
         <div class="text padding-right">
-          <h1>Rock ‘n’ roll et cie</h1>
+          <h1>Rock ‘n' roll et cie</h1>
           <h2>à partir de 22h30</h2>
           <p>
-            La musique des années 50 reste la meilleure. Répétez vos Rock and Roll et échauffez vos guiboles ! Rock, jazz, swing, les mariées ouvrent le bal et vous rejoignez la piste.<br><br>
-            Martin se charge de vous faire bouger, d’ici la fin de la soirée, vous aurez rejoins votre époque musicale.
+            Les années 50, c'est aussi une musique endiablée. Répétez vos pas de danse et échauffez vos guiboles&nbsp;! Rock, jazz, swing, les mariées ouvrent le bal et vous invite à rejoindre la piste.<br><br>
+            Tout au long de la soirée, Martin notre DJ vous fera traverser les époques musicales jusqu'à aujourd'hui&nbsp;!
           </p>
         </div>
       </div>
       <div class="row">
         <div class="text padding-left">
-          <h1>Feu d’artifice</h1>
-          <h2>jusqu’à l’aube</h2>
+          <h1>Surprise&nbsp;!</h1>
+          <h2>vers minuit</h2>
           <p>
-            Envie de danser encore ? Le bal continue.<br>
-            Envie de jouer ? Finissez la soirée dans les salons de jeux, tarot, poker, black jack. Prenez un peu de monnaie pour les vrais joueurs&nbsp;!
-            Un billard vous attend aussi.
+            Pour conclure ce jour de fête, retrouvons-nous dehors pour une surprise&nbsp; pyrotechnique&nbsp;!
           </p>
         </div>
         <div class="text padding-right">
           <h1>Play Time</h1>
-          <h2>à partir de 14h30</h2>
+          <h2>jusqu'à l'aube</h2>
           <p>
-            Retrouvons nous au Château de Pralong à Satilleu.<br>
-            Les mariés vous accueilleront et à 15h nous entamerons un court discours pour vous remercier de votre venue.
+            Pour les plus téméraires, la piste de danse reste ouverte jusqu'à l'aube.<br>
+            Vous préférez une ambiance plus posée&nbsp;? Finissez la soirée dans les salons de jeux. Au programme Billard, Tarot, Poker ou Black Jack.
           </p>
         </div>
       </div>
@@ -128,15 +121,15 @@
           <h1 class="prep">Brunch &amp; piscine </h1>
           <h2>à partir de 13h</h2>
           <p>
-            Après une grasse matinée du Dimanche, rejoignez nous pour un brunch et  une après midi tranquille au bord de la piscine.<br><br>
-            Prenez les maillots de bain et serviette !
+            Après une grasse matinée le Dimanche, rejoignez-nous pour un brunch et passons une après-midi tranquille au bord de la piscine.<br><br>
+            N'oubliez pas vos maillots de bain et serviettes de plage&nbsp;!
           </p>
         </div>
         <div class="text padding-right">
           <h1>Dîner et feu de camp</h1>
           <h2>à partir de 20h30</h2>
           <p>
-            Le soir nous vous proposons une petite soirée autour d’un feu de camp. Rejoignez nous au coin du feu dans le jardin, amis musiciens, amenez vos instruments.
+            Ceux qui pourront rester le soir sont invités à une petite soirée autour d'un feu de camp. Rejoignez-nous le jardin. Amis musiciens, vos instruments sont les bienvenus.
           </p>
         </div>
       </div>

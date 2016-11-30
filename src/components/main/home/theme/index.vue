@@ -6,7 +6,7 @@
       <youtube-iframe video-id="6MocOt8xBjo"></youtube-iframe>
     </div>
     <p>
-      Plongez dans l’univers d’une fête foraine des années 50 en France, venez participer aux attractions et concours pour remporter des cadeaux et ne manquez pas François le facteur !
+      C'est la fête&nbsp;! Plongez dans l'univers de Jour de fête et retrouvez les jeux et les attractions librement inspirés d'une fête de village dans les années 50.
     </p>
   </div>
 </template>
@@ -79,5 +79,6 @@ p {
   padding: 0;
   height: auto;
   background: black;
+  margin-bottom: 30px;
 }
 </style>

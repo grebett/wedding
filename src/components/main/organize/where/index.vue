@@ -8,7 +8,7 @@
     </iframe>
 
     <p class="main-text centered">
-      Le château de Pralong se trouve à Satillieu en Ardèche 07920.<br>Dans le village, tournez au niveau du crédit Agricole. Des panneaux vous indiqueront le chemin à suivre.
+      Le château de Pralong se trouve à Satillieu en Ardèche, code postal 07920.<br>Dans le village, trouvez le Crédit Agricole et prenez la D115. Des panneaux vous indiqueront alors le chemin à suivre jusqu'au château.
     </p>
 
     <div class="row">
@@ -20,19 +20,19 @@
         <h2>Comment nous rejoindre</h2>
         <p>
           Si vous venez en transport en commun&nbsp;:<br>
-          Depuis Lyon, prenez le train jusqu’au Péage de Rousillon. Puis un bus vous emmenera jusqu’à Annonay, puis Satillieu.<br><br>
+          Depuis Lyon, prenez le train jusqu'à la gare <em>Péage de Rousillon</em>. Un bus vous emmenera alors jusqu'à Annonay, puis Satillieu.<br><br>
           Si vous êtes en voiture&nbsp;:<br>
           Comptez environ 1h30 de route depuis Lyon&nbsp;;<br>
           4h30 depuis Limoges&nbsp;;<br>
-          5h depuis Paris, Nancy, Orléans&nbsp;;<br>
+          5h depuis Paris, Nancy ou Orléans&nbsp;;<br>
           8h depuis Saint Malo
         </p>
       </div>
     </div>
 
     <p class="carpooling-text centered">
-      Et si vous faisiez du covoiturage ??<br><br>
-      Si vous avez des places disponibles dans vos voitures ou si vous cherchez quelqu’un pour vous emmener, nous vous avons préparer un formulaire ici.
+      Et si vous faisiez du covoiturage ?<br><br>
+      Si vous avez des places disponibles dans vos voitures ou si vous cherchez quelqu'un pour vous emmener, <a target="_blank" href="https://docs.google.com/spreadsheets/d/1nelr2E1j6M8IhLkeXCHDiHMpccbv0puFXRXz9s2yXG8/edit?usp=sharing">inscrivez-vous sur ce formulaire</a>, accessible uniquement aux invités.
     </p>
   </div>
 </template>
@@ -95,6 +95,12 @@ h2.main_subtitle {
   font-weight: bold;
   text-align: center;
   color: var(--dark-blue);
+}
+
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 iframe,

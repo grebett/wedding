@@ -1,5 +1,6 @@
 <template>
   <div class="confirm-venue-container" style="padding:40px;">
+    <h1>confirmez votre présence</h3>
     <ticket></ticket>
     <div class="buttons-container">
       <button class="button button--dark" type="button" name="button">ajouter quelqu'un</button>
@@ -28,6 +29,13 @@ export default {
   background-color: transparent;
   position: relative;
   z-index: 1;
+}
+
+h1 {
+  text-align: center;
+  color: var(--white);
+  margin-top: -30px;
+  font-size: 20px;
 }
 
 .buttons-container {

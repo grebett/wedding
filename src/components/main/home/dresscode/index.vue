@@ -6,12 +6,12 @@
     <img class="photo audrey" alt="Audrey Hepburn robe fuseau noire" src="./audrey.jpg">
     <img class="photo dancing" alt="Pas de danse" src="./3dancing.png">
     <div class="text">
-      <h1>Dress code (à votre guise)</h1>
+      <h1>Dress code conseillé</h1>
       <p>
-        Inspirations années 50.<br>
-        Hommes : chapeau, veston, bretelles...<br>
-        Femmes : <i>tea length</i>, gants, robe de cocktail...<br>
-        Enfants : ?
+        Si le coeur vous en dit, inspirez-vous de la mode des années 50&nbsp; et sortez vos plus belles tenues&nbsp;!<br>
+        Pour les hommes&nbsp;: chapeau, veston, bretelles...<br>
+        Pour les femmes&nbsp;: <i>tea length</i>, gants, robe de cocktail...<br>
+        Et quoi de plus mignon qu'un enfant costumé&nbsp;?
       </p>
     </div>
   </div>
@@ -57,7 +57,7 @@ export default {
   position: absolute;
   top: 300px;
   left: 30px;
-  width: 350px;
+  width: 400px;
 }
 
 h1 {

@@ -1,10 +1,10 @@
 <template>
   <div class="countryside-container">
     <h1 class="main_title">la région</h1>
-    <h2 class="main_subtitle">Le nord de l’Ardèche</h2>
+    <h2 class="main_subtitle">Le nord de l'Ardèche</h2>
     <img class="photo balloons" src="./balloons.jpg" alt="plusieurs montgolfières">
     <p class="centered">
-      Si vous ne connaissez pas la région et que vous avez un peu de temps cet été profitez en pour découvrir les alentours.
+      Si vous ne connaissez pas la région et que vous avez un peu de temps cet été, profitez en pour découvrir les alentours.
     </p>
     <div class="patchwork-container">
       <img class="photo dance" src="./dance.jpg" alt="danse autour d'une vieille montgolfière">
@@ -14,16 +14,16 @@
         <h1>Les frères Montgolfiers</h1>
         <h2>Annonay</h2>
         <p>
-          Les inventeurs de la montgolfière viennent d’Annonay et les createurs du papier Canson aussi. Pour ceux qui ont l’oeil, vous comprenez pourquoi le logo Canson est une montgolfière.<br><br>
-          Pour ceux qui veulent voir les choses de plus haut de nombreux voyages en montgolfiere sont organisés dans la région si cela vous tente.
+          Les inventeurs de la montgolfière viennent d'Annonay, tout comme les créateurs du papier Canson. Vous comprenez maintenant pourquoi le logo Canson est une montgolfière&nbsp;!<br><br>
+          Pour les aventuriers qui voudraient prendre un peu de hauteur, de nombreux voyages en montgolfière sont organisés dans la région. Une autre vision de l'Ardèche à ne pas manquer.
         </p>
       </div>
       <div class="text gorges">
         <h1>Le grand air</h1>
         <h2>Gorges et montagnes</h2>
         <p>
-          Pour les sportifs l’Ardèche est un merveilleux terrain pour l’escalade. A proximité, il y a 6 sites d’escalade dont La Mer de Glace où l’on escalade à côté des petits ruisseaux et cascades. Il y a également un parc d’accrobranche dans les environs et plein de circuits pour vélo et de randonnées à faire dans les environs.<br><br>
-          Découvrez aussi le Safari de Peaugres pour les plus jeunes ou ceux qui aiment bien les animaux.
+          Pour les sportifs, l'Ardèche est un merveilleux terrain d'escalade. À proximité de Satillieu, on compte pas moins de six sites, dont la <a href="http://www.yadugaz07.com/escalade-villevocance.php">Mer de Glace</a> où l'on grimpe le long des ruisseaux et des cascades. Il y a également un parc d'accrobranche dans les environs et plein de circuits pour vélo et la randonnée.<br><br>
+          Autre sortie dépaysante, le <a href="http://www.safari-peaugres.com/">Safari de Peaugres</a>. Amis des animaux, profitez-en&nbsp;!
         </p>
       </div>
     </div>
@@ -127,6 +127,12 @@ h2.main_subtitle {
   font-weight: normal;
   text-transform: none;
   margin-top: -10px;
+}
+
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .balloons {
