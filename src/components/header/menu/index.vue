@@ -2,10 +2,10 @@
   <div class="header-menu-container">
     <ul>
       <!-- Todo: bold the selected menu -->
-      <li><router-link to="/home">Accueil</router-link></li>
-      <li><router-link to="/program">Programme</router-link></li>
-      <li><router-link to="/discover">Découverte</router-link></li>
-      <li><router-link to="/organization">Organisation</router-link></li>
+      <li><router-link to="/accueil">Accueil</router-link></li>
+      <li><router-link to="/programme">Programme</router-link></li>
+      <li><router-link to="/découvrir">Découverte</router-link></li>
+      <li><router-link to="/organisation">Organisation</router-link></li>
       <li><a href="#">Photos</a></li>
     </ul>
   </div>
