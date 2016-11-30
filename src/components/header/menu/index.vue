@@ -6,7 +6,7 @@
       <li><router-link to="/programme">Programme</router-link></li>
       <li><router-link to="/découvrir">Découverte</router-link></li>
       <li><router-link to="/organisation">Organisation</router-link></li>
-      <li><a href="#">Photos</a></li>
+      <li><router-link to="/photos">Photos</router-link></li>
     </ul>
   </div>
 </template>
