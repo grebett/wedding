@@ -1,9 +1,16 @@
 <template>
   <div class="confirm-venue-container" style="padding:40px;">
     <h1>confirmez votre présence</h3>
-    <ticket></ticket>
+    <div v-for="(ticket, index) in tickets">
+      <ticket
+        v-bind:ticket="ticket.fullname" v-on:update="handleChange"
+        v-bind:mail="ticket.mail"
+        v-bind:vegan="ticket.vegan"
+        v-bind:index="index">
+      </ticket>
+    </div>
     <div class="buttons-container">
-      <button class="button button--dark" type="button" name="button">ajouter quelqu'un</button>
+      <button class="button button--dark" type="button" name="button" v-on:click="add">ajouter quelqu'un</button>
       <button class="button button--light" type="button" name="button">valider</button>
     </div>
   </div>
@@ -16,7 +23,19 @@ export default {
   name: 'confirm-venue',
   components: { Ticket },
   data() {
-    return {};
+    return {
+      tickets: [{ fullname: '', mail: '', vegan: false }],
+    };
+  },
+  methods: {
+    add() {
+      this.tickets.push({
+        fullname: '', mail: '', vegan: false,
+      });
+    },
+    handleChange(data) {
+      this.tickets[data.index][data.key] = data.value;
+    },
   },
 };
 </script>

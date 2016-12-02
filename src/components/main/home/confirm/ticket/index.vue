@@ -2,13 +2,27 @@
   <div class="ticket-container">
     <form>
       <div class="form-group">
-        <input type="text" placeholder="nom/prénom">
+        <input
+          type="text"
+          placeholder="nom/prénom"
+          v-on:input="update($event.target.value, 'fullname', index)">
       </div>
       <div class="form-group">
-        <input type="text" placeholder="mail">
+        <input
+          type="text"
+          placeholder="mail"
+          v-on:input="update($event.target.value, 'mail', index)">
       </div>
       <div class="form-group">
-        <input id="checkbox1" type="checkbox" class="css-checkbox" name="name" value=""><label for="checkbox1" class="css-label">dîner végétarien</label>
+        <input
+          ref="vegan"
+          type="checkbox"
+          v-bind:id="'checkbox' + index"
+          class="css-checkbox"
+          name="name"
+          v-bind:checked="vegan"
+          v-on:click="update($event.target.checked, 'vegan', index)">
+        <label v-bind:for="'checkbox' + index" class="css-label">dîner végétarien</label>
       </div>
     </form>
   </div>
@@ -19,8 +33,14 @@
 export default {
   name: 'ticket',
   components: { },
+  props: ['fullname', 'mail', 'vegan', 'index'],
   data() {
     return {};
+  },
+  methods: {
+    update(value, key, index) {
+      this.$emit('update', { value, key, index });
+    },
   },
 };
 </script>
