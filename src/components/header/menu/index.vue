@@ -4,7 +4,7 @@
       <!-- Todo: bold the selected menu -->
       <li><router-link to="/accueil">Accueil</router-link></li>
       <li><router-link to="/programme">Programme</router-link></li>
-      <li><router-link to="/découvrir">Découverte</router-link></li>
+      <li><router-link to="/decouvrir">Découverte</router-link></li>
       <li><router-link to="/organisation">Organisation</router-link></li>
       <li><router-link to="/photos">Photos</router-link></li>
     </ul>
@@ -22,6 +22,10 @@ export default {
 
 <style scoped>
 :root {
+}
+
+.router-link-active {
+  font-weight: bold;
 }
 
 .header-menu-container {

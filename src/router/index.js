@@ -14,9 +14,9 @@ export default new Router({
   routes: [
     { path: '/accueil', component: Home },
     { path: '/programme', component: Program },
-    { path: '/découvrir', component: Discover },
+    { path: '/decouvrir', component: Discover },
     { path: '/organisation', component: Organize },
     { path: '/photos', component: Photos },
-    { path: '/', redirect: '/home' },
+    { path: '/', redirect: '/accueil' },
   ],
 });
