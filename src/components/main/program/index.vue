@@ -30,7 +30,7 @@
           <h1>Arrivée des invités</h1>
           <h2>à partir de 14h30</h2>
           <p>
-            Rendez-vous directement au <router-link to="/découverte">château de Pralong à Satillieu</router-link>. Prenons le temps
+            Rendez-vous directement au <router-link to="/organisation">château de Pralong à Satillieu</router-link>. Prenons le temps
             de tous nous retrouver&nbsp;!
           </p>
         </div>
@@ -80,7 +80,7 @@
       </div>
       <div class="row">
         <div class="text padding-left">
-          <h1>Diner &amp; animations</h1>
+          <h1>Dîner &amp; animations</h1>
           <h2>20h</h2>
           <p>
             Le goûter vous a mis en appétit&nbsp;? Alors direction la salle de réception&nbsp; pour un repas d'été savoureux&nbsp;!<br><br>
@@ -91,7 +91,7 @@
           <h1>Rock ‘n' roll et cie</h1>
           <h2>à partir de 22h30</h2>
           <p>
-            Les années 50, c'est aussi une musique endiablée. Répétez vos pas de danse et échauffez vos guiboles&nbsp;! Rock, jazz, swing, les mariées ouvrent le bal et vous invite à rejoindre la piste.<br><br>
+            Les années 50, c'est aussi une musique endiablée. Répétez vos pas de danse et échauffez vos guiboles&nbsp;! Rock, jazz, swing, les mariées ouvrent le bal et vous invitent à rejoindre la piste.<br><br>
             Tout au long de la soirée, Martin notre DJ vous fera traverser les époques musicales jusqu'à aujourd'hui&nbsp;!
           </p>
         </div>
@@ -109,7 +109,7 @@
           <h2>jusqu'à l'aube</h2>
           <p>
             Pour les plus téméraires, la piste de danse reste ouverte jusqu'à l'aube.<br>
-            Vous préférez une ambiance plus posée&nbsp;? Finissez la soirée dans les salons de jeux. Au programme Billard, Tarot, Poker ou Black Jack.
+            Vous préférez une ambiance plus posée&nbsp;? Finissez la soirée dans les salons de jeux. Au programme Billard, Tarot ou Poker...
           </p>
         </div>
       </div>
@@ -121,15 +121,15 @@
           <h1 class="prep">Brunch &amp; piscine </h1>
           <h2>à partir de 13h</h2>
           <p>
-            Après une grasse matinée le Dimanche, rejoignez-nous pour un brunch et passons une après-midi tranquille au bord de la piscine.<br><br>
+            Après une grasse matinée le dimanche, rejoignez-nous pour un brunch et passons une après-midi tranquille au bord de la piscine.<br><br>
             N'oubliez pas vos maillots de bain et serviettes de plage&nbsp;!
           </p>
         </div>
         <div class="text padding-right">
-          <h1>Dîner et feu de camp</h1>
+          <h1>Dîner musical</h1>
           <h2>à partir de 20h30</h2>
           <p>
-            Ceux qui pourront rester le soir sont invités à une petite soirée autour d'un feu de camp. Rejoignez-nous le jardin. Amis musiciens, vos instruments sont les bienvenus.
+            Ceux qui pourront rester le soir sont invités à une petite soirée au clair de lune. Rejoignez-nous dans le jardin. Amis musiciens, vos instruments sont les bienvenus.
           </p>
         </div>
       </div>

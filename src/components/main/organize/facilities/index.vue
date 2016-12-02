@@ -3,7 +3,7 @@
     <h1 class="main_title">Les hébergements</h1>
     <h2 class="main_subtitle">Possibilité d'hébergement<br>dans les environs</h2>
     <p class="intro centered">
-      C'est vrai, l'Ardèche, c'est un peu loin. Mais comme c'est une région magnifique, et qu'en plus c'est le mois d'Aôut, pourquoi n'en profiteriez-vous pas pour prendre quelques vacances&nbsp;? Nous avons sélectionné pour vous une liste de logement dans le coin.<br><br>
+      C'est vrai, l'Ardèche, c'est un peu loin. Mais comme c'est une région magnifique et qu'en plus c'est le mois d'Août, pourquoi n'en profiteriez-vous pas pour prendre quelques vacances&nbsp;? Nous avons sélectionné pour vous une liste de logement dans le coin.<br><br>
       Réservez vite, les prix n'en seront que plus intéressants. Si vous vous groupez, nous pourrons négocier des réductions auprès de ces établissements. Pour nous prévenir, utilisez <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KjHtz0uj-PvThJK2NuKtflnV9esqpPkZlDrpPEUWCTc/edit?usp=sharing">ce formulaire</a>, accessible uniquement aux invités, ou <a href="mailto:gregory.betton@gmail.com,chl.payot@gmail.com">contactez-nous directement par email</a>.
       Nous essaierons de vous obtenir les meilleurs prix et vous préviendrons quand vous pourrez finaliser vous-même votre réservation.
     </p>
@@ -17,7 +17,7 @@
         <h2>La Gentilhommière</h2>
         <p>
           La Gentilhommière est l'hôtel le plus proche. Vous pourrez même rentrer du château à pied&nbsp;! C'est un hôtel 3 étoiles avec piscine chauffée, restaurant, terrasse et jardin.<br>
-          Comptez entre 70 et 100 € la nuit. Il est possible de réserver des chambres d'hotel ou des duplex pour un séjour prolongé.<br><br>
+          Comptez entre 70 et 100 € la nuit. Il est possible de réserver des chambres d'hôtel ou des duplex pour un séjour prolongé.<br><br>
           Nous pouvons organiser un tarif de groupe à partir de 20 personnes.
         </p>
       </div>
@@ -38,8 +38,8 @@
         <h1>Camping sur place</h1>
         <h2>Dans les jardins du château</h2>
         <p>
-          Si vous êtes jeune et que vous aimez le grand air, nous réservons pour vous espace dans le jardin pour planter quelques tentes.<br>
-          Ammenez votre materiel de camping, les toilettes, les salles de bain et la cuisine du chateau sont à disposition.<br><br>
+          Si vous êtes jeune et que vous aimez le grand air, nous réservons pour vous un espace dans le jardin pour planter quelques tentes.<br>
+          Ammenez votre materiel de camping, les toilettes, les salles de bain et la cuisine du château sont à disposition.<br><br>
           Vous pouvez séjourner au château les trois nuits, du vendredi 18 au lundi 21 août. Tarifs&nbsp;: c'est l'avantage, c'est gratuit.<br>
           Manifestez-vous à l'avance en vous <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KjHtz0uj-PvThJK2NuKtflnV9esqpPkZlDrpPEUWCTc/edit?usp=sharing#gid=725102490">inscrivant sur ce formulaire</a>.
         </p>
@@ -152,7 +152,7 @@ a {
 
 .patchwork-container {
   width: 100%;
-  height: 1600px;
+  height: 1550px;
   position: relative;
   margin-top: 50px;
 }
@@ -161,42 +161,42 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 350px;
+  width: 400px;
 }
 
 .gentilhommiere {
   position: absolute;
   top: 0;
   right: -80px;
-  width: 300px;
+  width: 250px;
 }
 
 .gites {
   position: absolute;
-  top: 500px;
+  top: 450px;
   right: 0;
   width: 300px;
 }
 
 .gite {
   position: absolute;
-  top: 500px;
+  top: 480px;
   left: -80px;
-  width: 300px;
+  width: 360px;
   z-index: 2;
 }
 
 .agathe {
   position: absolute;
-  top: 650px;
-  left: -20px;
-  width: 300px;
+  top: 690px;
+  left: -40px;
+  width: 340px;
   z-index: 1;
 }
 
 .camping {
   position: absolute;
-  top: 1200px;
+  top: 1150px;
   left: 0;
   width: 320px;
 }

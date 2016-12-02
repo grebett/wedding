@@ -4,7 +4,7 @@
     <h2 class="main_subtitle">Le château de Pralong Satillieu</h2>
     <img class="photo castle" src="./castle-front.jpg" alt="façade du château de Pralong">
     <p class="centered">
-      Le château de Pralong, composé de différents bâtiments et jardins, nos offre tout le confort nécessaire à une fête d'exception. Nous avons carte blanche pendant du vendredi 18 au lundi 21 août. Alors profitons-en&nbsp;!
+      Le château de Pralong, composé de différents bâtiments et jardins, nos offre tout le confort nécessaire à une fête d'exception. Nous avons carte blanche du vendredi 18 au lundi 21 août. Alors profitons-en&nbsp;!
     </p>
     <div class="patchwork-container">
       <img class="photo entrance" src="./entrance.jpg" alt="entrée du château">
@@ -17,7 +17,7 @@
         <p>
           La cour où nous vous accueillerons et pourrons prendre le petit-déjeuner du dimanche.<br><br>
           Les jardins avec leur vue panoramique sur la vallée seront transformés en fête foraine. Un coin particulier sera amménagé pour la cérémonie sous les grands pins.<br><br>
-          Envie vous rafraîchir sous le soleil aoûtien&nbsp;? La piscine chauffée n'attend que vous&nbsp;!
+          Envie de vous rafraîchir sous le soleil aoûtien&nbsp;? La piscine chauffée n'attend que vous&nbsp;!
         </p>
       </div>
       <div class="text room">
