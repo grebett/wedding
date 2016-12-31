@@ -11,12 +11,13 @@
     </div>
     <div class="buttons-container">
       <button class="button button--dark" type="button" name="button" v-on:click="add">ajouter quelqu'un</button>
-      <button class="button button--light" type="button" name="button">valider</button>
+      <button class="button button--light" type="button" name="button" v-on:click="validate">valider</button>
     </div>
   </div>
 </template>
 
 <script>
+import aja from 'aja';
 import Ticket from './ticket';
 
 export default {
@@ -35,6 +36,25 @@ export default {
     },
     handleChange(data) {
       this.tickets[data.index][data.key] = data.value;
+    },
+    validate() {
+      const json = JSON.stringify(this.tickets);
+
+      aja()
+        .method('POST')
+        .url('https://chloe-gregory-wedding-c650b.firebaseio.com/venue.json')
+        .cache(false)
+        .body(json)
+        .on('200', () => {
+          alert('ok');
+        })
+        .on('40x', () => {
+          alert('ko');
+        })
+        .on('500', () => {
+          alert('fuck');
+        })
+        .go();
     },
   },
 };
