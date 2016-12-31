@@ -46,13 +46,13 @@ export default {
         .cache(false)
         .body(json)
         .on('200', () => {
-          alert('ok');
+          alert('Merci, votre réponse a bien été prise en compte.');
         })
         .on('40x', () => {
-          alert('ko');
+          alert('Oups, une erreur est survenue. Réessayez plus tard ou envoyez nous un email à gregory.betton@gmail.com ou chl.payot@gmail.com !');
         })
         .on('500', () => {
-          alert('fuck');
+          alert('Oups, une erreur est survenue. Réessayez plus tard ou envoyez nous un email à gregory.betton@gmail.com ou chl.payot@gmail.com !');
         })
         .go();
     },
